@@ -1,0 +1,36 @@
+#titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#titulo > h2 {
+    width: 30%;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom right, red, black);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background: linear-gradient(to bottom right, red, black);
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+    
+}

@@ -1,0 +1,62 @@
+#prox_partido {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#prox_partido > div {
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom right, red, black);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+#texto_video {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#titulo > h2 {
+    width: 30%;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom right, red, black);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.patro {
+    width: 15%;
+    margin: 2%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+.patro > img {
+    width: 100%;
+}
+
+.patro:hover {
+    transform: scale(1.02);
+}

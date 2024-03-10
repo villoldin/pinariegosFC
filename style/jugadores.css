@@ -1,0 +1,137 @@
+#titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#titulo > h2 {
+    width: 30%;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom right, red, black);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.jugadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jugador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 5px;
+    width: 35%;
+    height: 200px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jugador:hover {
+    transform: scale(1.02);
+}
+
+.foto_jugador {
+    width: 20%;
+}
+
+.foto_jugador > img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 170px;
+    min-height: 200px;
+}
+
+.datos {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.nombre_dorsal {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.nombre {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dorsal {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-weight: bolder;
+    border: 1px solid black;
+    background: linear-gradient(to bottom right, red, black);
+    padding: 5px;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 2px;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.stats > div {
+    width: 20%;
+    height: 80px;
+    margin: 2px;
+    background-color: #ccc;
+    border-radius: 3%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.stats > div > p {
+    margin: 5%;
+}
+
+#nombre_stat {
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .jugadores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jugador {
+        width: 100%;
+    }
+
+    .foto_jugador {
+        display: none;
+    }
+    
+}
