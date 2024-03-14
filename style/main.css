@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: center;
     margin-bottom: 40px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #prox_partido > div {
@@ -64,6 +64,10 @@
 
 
 @media only screen and (max-width: 1000px) {
+    #prox_partido {
+        margin-top: 50%;
+    }
+    
     #prox_partido > div {
         width: 100%;
     }
