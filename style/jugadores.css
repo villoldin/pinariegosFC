@@ -121,6 +121,11 @@ h3 {
 
 
 @media only screen and (max-width: 1000px) {
+
+    #titulo > h2 {
+        width: 100%;
+    }
+    
     .jugadores {
         display: flex;
         flex-direction: column;
