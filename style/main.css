@@ -60,3 +60,26 @@
 .patro:hover {
     transform: scale(1.02);
 }
+
+
+@media only screen and (max-width: 1000px) {
+    #prox_partido > div {
+        width: 100%;
+    }
+
+    #titulo > h2 {
+        width: 100%;
+    }
+    .patrocinadores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .patro {
+        width: 100%;
+    }
+
+    #texto_video {
+        display: none;
+    }
+}
